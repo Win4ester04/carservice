@@ -1,0 +1,836 @@
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .container {
+    width: 2000px;
+    margin: 0 auto;
+  }
+
+  main .md-about .md-about-central {
+    width: 1800px;
+    height: 1150px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  main .md-about {
+    background-color: #f5f5f5;
+    margin-top: 80px;
+    height: 1750px;
+  }
+
+  main .md-about .about-blocks {
+    width: 1800px;
+  }
+
+  #feedback .feedback form .submit-button {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .container-about {
+    width: 1650px;
+    margin: 0 auto;
+  }
+
+  .hidden-on-desktop {
+    display: none;
+  }
+
+  main .md-about .md-about-central .header-about {
+    font-size: 40px;
+  }
+
+  main .md-about .md-about-central p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .container {
+    width: 1600px;
+  }
+
+  main .md-about .md-about-central {
+    width: 1600px;
+    height: 930px;
+  }
+
+  main .header-about {
+    padding-top: 100px;
+  }
+
+  .container-about {
+    width: 1200px;
+  }
+
+  main .md-about .md-about-central p {
+    font-size: 20px;
+  }
+
+  .header-top {
+    margin-bottom: 20px;
+  }
+
+  main .md-about .md-about-central .md-img {
+    margin: 0 auto;
+    /* padding-top: 90px;
+    padding-left: 250px; */
+  }
+
+  main .md-about .about-blocks {
+    width: 1600px;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  main .md-about .about-blocks .blocks-info h3 {
+    font-size: 21px;
+  }
+
+  .hidden-on-desktop {
+    display: none;
+  }
+
+  #feedback .feedback form .submit-button {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 1300px;
+  }
+
+  main .md-about .md-about-central {
+    width: 1300px;
+    height: 800px;
+  }
+
+  main .md-about .about-blocks .blocks-info h3 {
+    font-size: 16px;
+  }
+
+  .container-about {
+    width: 850px;
+  }
+
+  main .md-about .md-about-central .md-img {
+    margin: 0 auto;
+    /* padding-top: 20px;
+    padding-left: 10px; */
+  }
+
+  main .md-about .about-blocks {
+    width: 1300px;
+  }
+
+  .hidden-on-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 1000px;
+  }
+
+  main .md-about .md-about-central {
+    width: 1000px;
+    height: 753px;
+  }
+
+  main .md-about .about-blocks {
+    width: 1000px;
+  }
+
+  main .md-about .md-about-central p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .hidden-on-desktop {
+    display: none;
+  }
+
+  main .md-about .md-about-central .md-img {
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  main .md-about .md-about-central .md-img {
+    /* width: 500px;
+    position: relative; */
+    padding-top: 100px;
+  }
+
+  .container-about {
+    width: 600px;
+  }
+
+  main .md-about .md-about-central {
+    width: 800px;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  main .md-about .about-blocks {
+    width: 800px;
+    flex-wrap: wrap;
+  }
+
+  main .md-about .about-blocks .blocks-info {
+    padding-bottom: 30px;
+  }
+  main .md-cervices {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  main .md-cervices .cervices-blocks {
+    width: 700px;
+  }
+
+  form {
+    width: 600px;
+  }
+
+  form .first-line {
+    display: block;
+  }
+
+  form input {
+    width: 475px;
+  }
+
+  form .user-name input {
+    margin: 0 auto;
+  }
+
+  form .user-name input,
+  form .user-phone input,
+  form .description textarea {
+    margin: 0;
+  }
+
+  form label {
+    padding-left: 0px;
+  }
+
+  #feedback {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  form .first-line > div {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  form .user-name input,
+  form .user-phone input,
+  form .description textarea {
+    width: 100%;
+  }
+
+  form h2 {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("img/new-bg.jpg") no-repeat center left fixed;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+  }
+
+  .hidden-on-mobile {
+    display: none;
+  }
+
+  .hidden-on-desktop {
+    display: inline-block;
+  }
+
+  .container {
+    width: 500px;
+    text-align: center;
+  }
+
+  main .md-about .md-about-central {
+    height: auto;
+    padding-bottom: 100px;
+    width: 600px;
+  }
+
+  main .container .buttons {
+    display: flex;
+    margin: 0 auto;
+    width: 430px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header .header-right {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .container .central-main {
+    align-items: center;
+    margin: 70px auto;
+    width: 500px;
+  }
+
+  main .container .central-info {
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 50px;
+  }
+
+  main .button-right-pos1 {
+    border-radius: 7px;
+    margin: 50px 0px;
+    display: flex;
+    padding: 16px 35px 15px;
+    align-items: center;
+    background-color: #c40b0b;
+    width: 203px;
+    height: 44px;
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+
+  main .container .central-main h1 {
+    font-size: 35px;
+    line-height: 35px;
+    width: 500px;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  main .md-about .about-blocks {
+    flex-wrap: wrap;
+    width: 500px;
+  }
+
+  main .md-about .about-blocks .blocks-info {
+    width: 500px;
+    padding-bottom: 50px;
+  }
+
+  main .md-cervices .cervices-blocks {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  main .md-cervices {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .container-about {
+    width: 450px;
+  }
+
+  .footer-main h1 {
+    text-align: center;
+  }
+
+  main .md-cervices .cervices-blocks .block {
+    width: 450px;
+  }
+  form input {
+    width: 475px;
+  }
+
+  form h2 {
+    font-size: 27px;
+    line-height: 23px;
+  }
+
+  form {
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("img/new-bg.jpg") no-repeat center left fixed;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+  }
+
+  main .container .central-main h1 {
+    font-size: 25px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  main .central-info h2 {
+    font-size: 17px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  main .container .buttons {
+    width: 300px;
+    text-align: center;
+    gap: 5px;
+  }
+
+  main .container .central-info {
+    margin-bottom: 0px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  main .md-about .md-about-central {
+    width: 450px;
+    height: 777px;
+  }
+
+  .container-about {
+    width: 450px;
+  }
+
+  main .md-about .md-about-central .md-img {
+    padding-top: 60px;
+    padding-right: 10px;
+    width: 450px;
+  }
+
+  main .button-right-pos1 img {
+    height: 22px;
+  }
+
+  main .button-right-pos1 a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  main .button-right-pos1 {
+    border-radius: 7px;
+    margin: 50px 0px;
+    display: flex;
+    padding: 16px 22px 16px;
+    align-items: center;
+    background-color: #c40b0b;
+    width: 133px;
+    height: 31px;
+    cursor: pointer;
+    transition: all 500ms ease;
+  }
+
+  h3.subheader-about {
+    width: 430px;
+  }
+
+  h3.subheader-cervices {
+    width: 430px;
+  }
+
+  main .md-about .md-about-central p {
+    font-size: 16px;
+    width: 350px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  main .md-cervices .cervices-blocks {
+    width: 375px;
+  }
+
+  main .md-cervices .cervices-blocks .block {
+    width: 375px;
+  }
+
+  main .md-about .about-blocks {
+    width: 400px;
+  }
+
+  main .md-about .md-about-central .header-about {
+    width: 450px;
+    font-size: 20px;
+  }
+
+  main .button-right-pos {
+    padding-right: 15px;
+  }
+
+  main .md-cervices .header-cervices {
+    font-size: 25px;
+    line-height: 24px;
+    width: 300px;
+  }
+
+  main .header-about {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  main .btn-wtapp {
+    padding: 7px 30px;
+  }
+
+  main .btn-wtapp a {
+    font-size: 15px;
+  }
+
+  main .md-about .about-blocks .blocks-info {
+    width: 400px;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  form input {
+    width: 380px;
+  }
+
+  form h2 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url("img/new-bg.jpg") no-repeat center left fixed;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+  }
+
+  main .container .central-main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  main .container .central-info {
+    width: 100%;
+  }
+
+  main .container .central-main h1 {
+    font-size: 23px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .central-info h2 {
+    font-weight: 700;
+    font-size: 14px;
+    width: 305px;
+    text-align: center;
+    line-height: 20px;
+  }
+  /* 
+  main .button-right-pos {
+    padding-right: 10px;
+  } */
+
+  .md-img {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .container-about {
+    width: 100%;
+  }
+
+  main .md-about .md-about-central {
+    height: 550px;
+    width: 400px;
+  }
+
+  h3.subheader-cervices {
+    width: 400px;
+  }
+
+  h3.subheader-about {
+    width: 400px;
+  }
+
+  main .md-about .md-about-central .header-about {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  main .container .buttons {
+    width: 290px;
+  }
+
+  main .md-about .header-about-us {
+    padding-left: 50px;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  form h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  form {
+    width: 375px;
+  }
+
+  form input {
+    width: 285px;
+  }
+
+  #feedback {
+    height: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 499px) {
+  body {
+    z-index: -1;
+    background: url("img/new-bg.jpg") no-repeat center left fixed;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+  }
+
+  main .md-about .md-about-central p {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  h3.subheader-about {
+    width: 330px;
+  }
+
+  main .md-about .md-about-central .header-about {
+    width: 375px;
+  }
+
+  h3.subheader-cervices {
+    width: 330px;
+  }
+
+  main .container .buttons {
+    height: 80px;
+    width: 290px;
+  }
+
+  main .md-about {
+    margin-top: 50px;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  main .md-about .md-about-central {
+    width: 375px;
+    height: 550px;
+  }
+
+  main .button-right-pos1 {
+    margin: 50px 0px;
+  }
+
+  main .md-about .about-blocks {
+    width: 375px;
+  }
+
+  main .md-cervices .cervices-blocks .block {
+    width: 375px;
+    height: auto;
+  }
+
+  main .md-cervices {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  main .container .central-main h1 {
+    font-size: 30px;
+  }
+
+  main .central-info h2 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  main .md-about .header-about-us {
+    padding-top: 0px;
+  }
+
+  main .md-cervices .md-cervices-info {
+    padding-left: 30px;
+  }
+
+  main .header-about {
+    padding-top: 0px;
+  }
+
+  main .md-cervices .header-cervices {
+    font-size: 20px;
+    line-height: 24px;
+    width: 300px;
+  }
+
+  main .header-about {
+    line-height: 24px;
+  }
+
+  main .md-cervices .cervices-blocks .block h2 {
+    font-size: 16px;
+  }
+
+  main .md-cervices .cervices-blocks .block p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-main .contacts .footer-location {
+    padding-bottom: 20px;
+  }
+
+  main .md-cervices .cervices-blocks .block img {
+    padding-bottom: 0px;
+  }
+
+  .footer-main {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  body {
+    z-index: -1;
+    background: url("img/new-bg.jpg") no-repeat center left fixed;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+  }
+
+  main .button-right-pos {
+    padding-right: 0px;
+  }
+
+  main .container .central-main h1 {
+    font-size: 21px;
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  main .central-info h2 {
+    font-weight: 700;
+    font-size: 15px;
+    width: 190px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  main .md-about .md-about-central .header-about {
+    width: 300px;
+  }
+
+  main .md-about .md-about-central p {
+    width: 260px;
+  }
+
+  main .md-about .md-about-central {
+    width: 300px;
+    height: 650px;
+  }
+
+  h3.subheader-about {
+    font-size: 15px;
+    width: 300px;
+  }
+
+  h3.subheader-cervices {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  main .md-about .about-blocks {
+    width: 270px;
+  }
+
+  main .md-about {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  main .md-cervices .cervices-blocks {
+    width: 270px;
+  }
+
+  main .md-cervices {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  main .container .buttons {
+    width: 285px;
+  }
+
+  form {
+    width: 270px;
+  }
+
+  .footer-main .contacts {
+    width: 270px;
+  }
+
+  form button {
+    padding: 10px 20px;
+  }
+
+  form h2 {
+    line-height: 18px;
+  }
+}
