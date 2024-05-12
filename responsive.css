@@ -373,6 +373,9 @@
   form {
     width: 450px;
   }
+
+  .footer-main h2 {
+    text-align: center;
 }
 
 @media (max-width: 600px) {
